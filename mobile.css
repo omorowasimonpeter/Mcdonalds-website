@@ -1,0 +1,120 @@
+@media(max-width: 768px){
+ .enquiries, .search, .location{
+    display: none;
+ }
+
+
+ 
+
+ .container{
+    justify-content: space-between;
+   
+ }
+
+
+ .section{
+    flex-direction: column;
+     margin: 1rem;
+    /* gap: 2rem;  */
+ }
+
+ .burger{
+    display: none;
+ }
+
+ .box1{
+   
+ }
+
+ h1,h2{
+    margin-left: 10px;
+    font-size: 230%;
+ }
+
+
+ .image-grid{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 1rem;
+    margin-top: 4rem;
+ }
+ .Extra-grid{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    
+ }
+ .h-1{
+    margin-left: 10px;
+    font-size: 230%;
+    white-space: nowrap;
+    margin-left: 1.5rem;
+
+ }
+ .more-food{
+    margin: 1rem;
+ }
+
+ .McValue{
+
+ }
+ .h-2{
+    margin-left: 3rem;
+    font-size: 230%;
+ }
+ .value{
+    flex-direction: column;
+    
+ }
+ .p-1{
+    margin: none
+    ;
+
+ }
+ .bottomlist{font-size: 75%;
+    margin: none;
+ }
+
+ .bottom{
+    margin: 0;
+    padding: 1rem;
+ }
+ .last-part{
+    flex-direction: column;
+     margin: 0;
+     /* gap: 0; */
+ }
+ .box-1{
+    
+     width: 100%;
+ }
+
+ .box-1 > img{
+    width: 100%;
+    
+ }
+
+ .box-1-content{
+    padding: 1.6rem;
+ }
+
+ .bottomlist{
+    margin: 0;
+ }
+
+ .h-22,.box-1 p, .box-1 button{
+    margin-left: 0;
+ }
+
+ .box-1 li{
+    margin-right: 0;
+ }
+ .about  {
+    flex-direction: column;
+    
+ }
+ .social-media{
+    flex-direction: column;
+    gap: 1rem;
+ }
+}
+
